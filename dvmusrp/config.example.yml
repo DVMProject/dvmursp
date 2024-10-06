@@ -1,0 +1,11 @@
+dvm:
+    receiveAddress: 127.0.0.1
+    receivePort: 33000
+    sendPort: 35000
+    sendAddress: 127.0.0.1
+    
+usrp:
+    receiveAddress: 0.0.0.0
+    receivePort: 34001
+    sendPort: 32001
+    sendAddress: 192.168.198.131
