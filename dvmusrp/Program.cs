@@ -8,7 +8,7 @@ internal class Program
 
         if (string.IsNullOrEmpty(configFilePath))
         {
-            Console.WriteLine("Usage: dvmusrp -c configfile.yml");
+            Console.WriteLine("Usage: dvmusrp -c config.yml");
             return;
         }
 
