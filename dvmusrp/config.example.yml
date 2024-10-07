@@ -1,11 +1,23 @@
+# DVMBridge UDP configuration
 dvm:
+    # Receive address
     receiveAddress: 127.0.0.1
+    # Receive port
     receivePort: 33000
+
+    # Send port
     sendPort: 35000
+    # Send address
     sendAddress: 127.0.0.1
-    
+   
+# USRP UDP Configuration
 usrp:
+    # Receive address
     receiveAddress: 0.0.0.0
+    # Receive port
     receivePort: 34001
+
+    # Send port
     sendPort: 32001
+    # Send address
     sendAddress: 192.168.198.131
